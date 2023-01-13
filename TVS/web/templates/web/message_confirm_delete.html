@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Delete Message</h2>
-<p>Are you sure you wanna delete comment「{{object}}」?</p>
+<h2>刪除評論</h2>
+<p>你確定要刪除評論:「{{message.user}}」?</p>
 <form action="" method="post">
     {% csrf_token %}
     <input type="submit" action="" value="☑️確認" class = button7>

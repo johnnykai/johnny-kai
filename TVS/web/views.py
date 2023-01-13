@@ -19,7 +19,7 @@ class MessageList(ListView):
                     score += exp.score
                 msg.score = round(score / len(expense_list), 1)
             else:
-                msg.score = "No one has commented🥸"
+                msg.score = "尚未有人評分"
             
             #msg.expense_form = Expense.objects.filter(target=msg.id)
 
