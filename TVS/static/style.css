@@ -1,0 +1,215 @@
+body {
+  background-color: palegoldenrod;
+}
+
+h1 {
+  color: black;
+  background-color: white;
+  text-align: center 
+}
+
+h2 {
+  background-color: cadetblue;
+}
+
+p {
+  color: black;
+}
+
+div {
+  border-color: black;
+}
+
+ul {
+  color: black;
+}
+
+/*home*/
+.button1 {
+  background-color: steelblue;
+  border: none;
+  color: black;
+  padding: 13px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 18px;
+  transition-duration: 0.4s;
+}
+
+.button1:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: steelblue;
+  box-shadow: 0 10px 11px 0 rgba(0,0,0,0.24), 0 10px 15px 0 rgba(0,0,0,0.19);
+  }
+
+/*comment*/
+.button2 {
+  background-color: rosybrown;
+  border: none;
+  color: black;
+  padding: 13px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 18px;
+  transition-duration: 0.4s;
+}
+
+.button2:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: rosybrown;
+  box-shadow: 0 10px 11px 0 rgba(0,0,0,0.24), 0 10px 15px 0 rgba(0,0,0,0.19);
+}
+
+/*log in n out*/
+.button3 {
+  background-color: lightgreen;
+  border: none;
+  color: black;
+  padding: 13px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 18px;
+  transition-duration: 0.4s;
+}
+
+.button3:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: lightgreen;
+  box-shadow: 0 10px 11px 0 rgba(0,0,0,0.24), 0 10px 15px 0 rgba(0,0,0,0.19);
+}
+
+/*file*/
+.button4{
+  background-color: burlywood;
+  border: none;
+  color: black;
+  padding: 8px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.button4:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: burlywood;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+}
+
+/*delete*/
+.button5{
+  background-color: gray;
+  border: none;
+  color: whitesmoke;
+  padding: 8px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.button5:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: gray;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+}
+
+/*back*/
+.button6{
+  background-color: lightcoral;
+  border: none;
+  color: whitesmoke;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.button6:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: lightcoral;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+}
+
+/*confirm*/
+.button7{
+  background-color: lightseagreen;
+  border: none;
+  color: whitesmoke;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.button7:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: lightseagreen;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+}
+
+/*comment list*/
+.button8{
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 30px;
+  transition-duration: 0.4s;
+}
+
+
+.button8:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: cadetblue;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+}
+
+/*status*/
+.button9{
+  background-color: cadetblue;
+  border: none;
+  color: whitesmoke;
+  padding: 13px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 18px;
+  transition-duration: 0.4s;
+}
+
+.button9:hover{
+   /* Animation */
+  background-color: whitesmoke;
+  color: cadetblue;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+}

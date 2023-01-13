@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>老師名字</h2>
+    {{ message.user }}<BR>
+    <h2>專業</h2>
+    {{ message.subject }}<BR>
+    <h2>評論</h2>
+    {{ message.content|linebreaks }}<BR>
+    <a href = "{% url 'expense_create' message.id %}" class = button7>➕評分</a>
+    <a href = "/message/" class = button6>⤺返回</a>
+{% endblock content %}

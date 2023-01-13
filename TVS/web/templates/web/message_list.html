@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2><a href = "https://youtu.be/6CCBSaveJs8" class = button8>評論列表</a></h2>
+<ol>
+    {% for message in message_list %}
+      <p> </p>
+      <li>
+        
+        <a href = "{% url 'msg_view' message.id %}" class = button4>📂{{ message.user }}</a>
+        {{ message.publication_date }}
+
+        {% if user.is_authenticated %}
+          <a href ="{% url 'msg_delete' message.id %}" class = button5>🗑刪除</a>
+
+        {% endif %}
+        |
+        Average Score: {{ message.score }}
+
+        |
+        
+      </li>
+    {% endfor %}
+
+</ol>
+{% endblock content %}

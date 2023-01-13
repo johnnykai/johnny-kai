@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+        {{form.as_table}}
+    </table>
+
+    <input type="submit" value="☑️Confirm" class = button7>
+    
+    <a href = "/message/create/" class = button6>⤺Back</a>
+</form>
+
+<img src= "https://www.pngkey.com/png/full/932-9329312_free-png-download-men-pointing-left-png-images.png" width = "200px" height = "200px" alt = "The graphic might still in sleep.🛌" object-position = center>
+{% endblock content %}

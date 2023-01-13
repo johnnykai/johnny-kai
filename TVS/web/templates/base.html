@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVS</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>👨🏻‍🏫大直高中老師評分系統👩🏻‍🏫</h1>
+    <div>
+        <a href = '/' class = button1>🏠主頁面</a>
+        <a href = "{% url 'msg_create' %}" class = button2>📝評論</a>
+        {% if user.is_authenticated %}
+            <a href="{% url 'logout' %}" class = button3>🔒登出</a> <a href = "https://www.instagram.com/bboyzeo711/" class = button9>身分👤:{{ user.username }}</a>
+        {% else %}
+            <a href="{% url 'login' %}"  class = button3>🔐登入</a>
+        {% endif %}
+        
+        
+    </div>
+    <hr>
+    <div>
+        {% block content %}{% endblock content %}
+    </div>
+</body>
+</html>
