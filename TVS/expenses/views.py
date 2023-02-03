@@ -4,11 +4,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse
 from .models import Expense
 
-class ExpenseList(LoginRequiredMixin, ListView):
-    model = Expense
-    ordering = ['-id']  # 反向排序
-    paginate_by =  1
-
 
 class ExpenseCreate(LoginRequiredMixin, CreateView):
     model = Expense
