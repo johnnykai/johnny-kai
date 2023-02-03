@@ -21,9 +21,7 @@ class MessageList(ListView):
             else:
                 msg.score = "尚未有人評分"
             
-            #msg.expense_form = Expense.objects.filter(target=msg.id)
-
-        #ctx['expense_form'] = msg.expense_form
+            
         return ctx
 
 class MessageDetail(DetailView):
